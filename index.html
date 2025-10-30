@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fútbol Fan - Tu pasión por el deporte rey</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4b3f2d5e8d.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo"><i class="fas fa-futbol"></i> Fútbol Fan</div>
+      <nav id="nav-menu">
+        <a href="#about">Sobre</a>
+        <a href="#stats">Estadísticas</a>
+        <a href="#gallery">Galería</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+      <button id="menu-btn"><i class="fas fa-bars"></i></button>
+    </header>
+
+    <section id="about" class="hero">
+      <h1>Vive la emoción del fútbol</h1>
+      <p>Noticias, estadísticas y momentos inolvidables del deporte más grande del mundo.</p>
+    </section>
+
+    <section id="stats">
+      <h2>Estadísticas en directo de la liga EA</h2>
+      <div class="stats-container">
+        <div class="stat-card" id="league-link">
+          <i class="fas fa-trophy"></i>
+          <h3>Liga Española</h3>
+          <p>Últimos resultados y posiciones actualizadas.</p>
+        </div>
+        <div class="stat-card" id="teams-link">
+          <i class="fas fa-users"></i>
+          <h3>Equipos top 9</h3>
+          <p>Conoce los clubes que mejor van esta temporada.</p>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-chart-line"></i>
+          <h3>Predicciones</h3>
+          <p>Comparte tus pronósticos con la comunidad fanática.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="league-table" style="display:none;">
+      <h3>Tabla de LaLiga</h3>
+      <table id="league-table-body">
+        <thead>
+          <tr>
+            <th>Pos</th>
+            <th>Equipo</th>
+            <th>PJ</th>
+            <th>PG</th>
+            <th>PE</th>
+            <th>PP</th>
+            <th>Puntos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="team-row">
+            <td>1</td>
+            <td>Real Madrid</td>
+            <td>10</td>
+            <td>8</td>
+            <td>1</td>
+            <td>1</td>
+            <td>25</td>
+          </tr>
+          <tr class="team-row">
+            <td>2</td>
+            <td>FC Barcelona</td>
+            <td>10</td>
+            <td>7</td>
+            <td>2</td>
+            <td>1</td>
+            <td>23</td>
+          </tr>
+          <tr class="team-row">
+            <td>3</td>
+            <td>Atlético de Madrid</td>
+            <td>10</td>
+            <td>6</td>
+            <td>3</td>
+            <td>1</td>
+            <td>21</td>
+          </tr>
+          <tr class="team-row">
+            <td>4</td>
+            <td>Sevilla FC</td>
+            <td>10</td>
+            <td>6</td>
+            <td>2</td>
+            <td>2</td>
+            <td>20</td>
+          </tr>
+          <tr class="team-row">
+            <td>5</td>
+            <td>Real Sociedad</td>
+            <td>10</td>
+            <td>5</td>
+            <td>3</td>
+            <td>2</td>
+            <td>18</td>
+          </tr>
+          <tr class="team-row">
+            <td>6</td>
+            <td>Villarreal CF</td>
+            <td>10</td>
+            <td>5</td>
+            <td>2</td>
+            <td>3</td>
+            <td>17</td>
+          </tr>
+          <tr class="team-row">
+            <td>7</td>
+            <td>Betis</td>
+            <td>10</td>
+            <td>4</td>
+            <td>4</td>
+            <td>2</td>
+            <td>16</td>
+          </tr>
+          <tr class="team-row">
+            <td>8</td>
+            <td>Valencia CF</td>
+            <td>10</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+            <td>15</td>
+          </tr>
+          <tr class="team-row">
+            <td>9</td>
+            <td>Celta de Vigo</td>
+            <td>10</td>
+            <td>3</td>
+            <td>4</td>
+            <td>3</td>
+            <td>13</td>
+          </tr>
+        </tbody>
+      </table>
+      <button id="show-more-btn">Mostrar más</button>
+    </section>
+
+    <section id="teams-section" style="display:none;">
+      <h3>Equipos de LaLiga</h3>
+      <div class="teams-grid">
+        <div class="team-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Escudo Real Madrid">
+          <p>Real Madrid</p>
+        </div>
+        <div class="team-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" alt="Escudo FC Barcelona">
+          <p>FC Barcelona</p>
+        </div>
+        <div class="team-card">
+          <img src="images/atletico.jpg" alt="Escudo Atlético de Madrid">
+          <p>Atlético de Madrid</p>
+        </div>
+        <div class="team-card">
+          <img src="images/sevilla.jpg" alt="Escudo Sevilla FC">
+          <p>Sevilla FC</p>
+        </div>
+        <div class="team-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/Real_Sociedad_logo.svg" alt="Escudo Real Sociedad">
+          <p>Real Sociedad</p>
+        </div>
+        <div class="team-card">
+          <img src="images/Villarreal_escudo.jpg" alt="Escudo Villarreal CF">
+          <p>Villarreal CF</p>
+        </div>
+        <div class="team-card">
+          <img src="images/betis.jpg" alt="Escudo Betis">
+          <p>Betis</p>
+        </div>
+        <div class="team-card">
+          <img src="images/valencia.jpg" alt="Escudo Valencia CF">
+          <p>Valencia CF</p>
+        </div>
+        <div class="team-card">
+          <img src="images/celta_de_vigo.jpg" alt="Escudo Celta de Vigo">
+          <p>Celta de Vigo</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>Galería</h2>
+      <div class="gallery-container">
+        <img src="images/camp-nou.jpg" alt="Estadio FC Barcelona">
+        <img src="images/estadio-bernabeu.jpg" alt="Estadio Santiago Bernabéu">
+        <img src="images/celebracion-aficionados.jpg" alt="Celebración de aficionados">
+        <img src="images/balon-cesped.jpg" alt="Balón en el césped">
+        <img src="images/aficionado-celebracion.jpg" alt="Aficionados celebrando un gol">
+      </div>
+    </section>
+
+    <div id="modal" class="modal">
+      <span id="close-modal">&times;</span>
+      <img id="modal-img" src="images/placeholder.jpg" alt="Imagen ampliada de la galería">
+    </div>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>¿Tienes dudas o sugerencias? Escríbenos aquí:</p>
+      <form id="contact-form">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Tu email" required>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+        <button type="submit">Enviar</button>
+        <p id="form-response" style="color: green; display: none;">¡Mensaje enviado! Gracias por tu contacto.</p>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Fútbol Fan. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
