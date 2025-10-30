@@ -4,7 +4,7 @@
 [https://dribbble.com/shots/25052365-Football-Social-Betting-App-Concept]
 
 **Description:**  
-Responsive web project made with HTML, CSS, and JavaScript. It includes a football image gallery, statistics, mobile menu, and hover effects. Developed following the naming, validation, and structure standards requested in class.
+Responsive web project developed with HTML, CSS, and JavaScript. It includes a football image gallery, statistics, and hover effects. I took as an example the Dribbble page, where they do it for the Premier League, and I took the idea to do it for the Spanish league.
 
 **Technologies:**  
 - HTML5  
